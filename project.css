@@ -1,0 +1,79 @@
+
+.large-button {
+        background-color: hsl(180, 72%, 65%);
+        color: #dfc60ee7;
+        border-radius: 10px;
+        font-size: 20px;
+        padding: 10px 20px;
+        
+ }
+ .style{
+    height: 400px;
+    width: 400px;
+    border: 2px solid #EA1179;
+    border-radius: 10px 20px ;
+    box-shadow:  0 4px 6px rgba(0, 0, 0, 0.1),
+    0 8px 12px rgba(0, 0, 0, 0.2), 
+    inset 0 0 10px rgba(0, 0, 0, 0.5); 
+
+ }
+ .kukka{
+   border-radius: 40px;
+   box-shadow:2px 2px 4px rgba(0, 0, 0, 0.2),
+   -2px -2px 4px rgba(255, 255, 255, 0.2);
+   background-color:plum;
+   transition: all;
+   margin-top:70px;
+}
+#abcd{
+   text-align: center;
+}
+.mnp{
+   width: 200px;
+    height: 200px;
+    background-color:blanchedalmond;
+    box-shadow: 10px 10px 20px yellowgreen,
+    -10px -10px 20px palegreen;
+     padding: 20px;
+}
+.back-button
+ {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+.back-button:hover,
+.next-button:hover {
+  background-color: #0056b3;
+}
+.next-button
+ {
+  padding: 10px 20px;
+  background-color:#007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+body {
+   border-top: 4px solid rgba(255, 166, 0, 0.947);   
+   border-right:5px outset orange;
+   border-left: 5px outset orange;  
+   padding: 60px; 
+   margin: 0;
+   background-image: url('path/to/your/image.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   border-bottom:4px solid orange;      
+}
+
+
+

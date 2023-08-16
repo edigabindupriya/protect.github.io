@@ -1,0 +1,90 @@
+
+body {
+    border-top: 4px solid #3498db;   
+    border-right:5px outset #9b59b6;
+    border-left: 5px outset #9b59b6;  
+    padding: 60px; 
+    margin: 0;
+    background-image: url('path/to/your/image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom:4px solid #3498db;      
+}
+.custom-paragraph {
+    font-size: 16px;
+    color: red;
+    margin: 0; 
+    padding: 20px;
+    border: 2px groove violet ;
+    border-radius:20px 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    
+}
+.another-element
+{
+font-size: 18px;
+    color: #333333;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:medium;
+    background-color: #F5F5F5;
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top:80px ;
+    padding-top:50px ;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);;
+    
+    
+    
+}
+.center-wrapper {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:20vh; /* Adjust the height if needed */
+}
+
+.custom-image {
+    height: 200px;
+    width: 200px;
+    border: 2px solid #EA1179;
+    border-radius: 10px 0 20px;
+    box-shadow:  10px 10px 20px rgba(0, 0, 0, 0.4); 
+}
+.Backgroundtemplate
+{
+    background-image: url('background-image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.back-button
+ {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+.back-button:hover,
+.next-button:hover {
+  background-color: #0056b3;
+}
+.next-button
+ {
+  padding: 10px 20px;
+  background-color:#007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
